@@ -19,9 +19,9 @@ numpy==1.24.3
 ## Test on the model
 
 ### 1. Prepare Test Data and Labels
-Before running the testing script:
-- Ensure your test data is prepared and matches the required input format for the model.
-- Ensure the corresponding labels are available for performance evaluation.
+- Before running the testing script:
+
+Ensure your test data and corresponding labels are ready and match the required input format for the model. You can set them up in the `getdata.py` script.
 
 ### 2. Download the Model Weights
 The model weights are not included in this repository. Please download the weights from the following link and place them in the specified directory:

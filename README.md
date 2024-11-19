@@ -9,10 +9,10 @@ IQSPred-PLM relies on a large-scale pre-trained protein language models: ESM-2. 
 - ESM-2:https://github.com/facebookresearch/esm
 
 # Package requirement
-'''
-  pytorch==2.1.0  
-  scikit-learn==1.3.0
-  pandas==2.0.3
-  numpy==1.24.3
-'''
+```
+pytorch==2.1.0  
+scikit-learn==1.3.0
+pandas==2.0.3
+numpy==1.24.3
+```
 

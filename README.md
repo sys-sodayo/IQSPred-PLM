@@ -19,19 +19,17 @@ numpy==1.24.3
 ## Test on the model
 
 ### 1. Prepare Test Data and Labels
-- Before running the testing script:
 
 Ensure your test data and corresponding labels are ready and match the required input format for the model. You can set them up in the `getdata.py` script.
 
 ### 2. Download the Model Weights
-The model weights are not included in this repository. Please download the weights from the following link and place them in the specified directory:
-- [Download Model Weights](#) *(replace `#` with the actual URL)*
 
-After downloading, place the weights in the `weights/` directory or update the path in the script accordingly.
+Our model can be download from : https://github.com/qy-guo/PLM-VF/tree/main/model
 
 ### 3. Run the Test Script
 To test the model, run the following command:
 ```bash
 python test.py
+```
 
 

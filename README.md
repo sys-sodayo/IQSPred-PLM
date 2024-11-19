@@ -1,4 +1,4 @@
-### IQSPred-PLM: An Interpretable Quorum Sensing Peptides Prediction Model Based on Protein Language Model
+# IQSPred-PLM: An Interpretable Quorum Sensing Peptides Prediction Model Based on Protein Language Model
 
 Quorum sensing regulates cooperative behaviors in bacteria through the accumulation and detection of signaling molecules. This process plays a crucial role in various biological functions, including biofilm formation, antibiotic production, regulation of virulence factors, and immune modulation.Within this framework, quorum sensing peptides (QSPs) serve as essential signaling molecules that mediate bacterial communication both within and between species, making them critical to understanding quorum sensing and its regulatory functions. Here, we propose IQSPred-PLM, a robust and interpretable deep learning model for accurate QSP prediction.
 
@@ -18,6 +18,20 @@ numpy==1.24.3
 
 ## Test on the model
 
-You can test the model using the provided `test.py` . Before running it, ensure that the test data and labels are prepared, and the weight files are downloaded.
+### 1. Prepare Test Data and Labels
+Before running the testing script:
+- Ensure your test data is prepared and matches the required input format for the model.
+- Ensure the corresponding labels are available for performance evaluation.
+
+### 2. Download the Model Weights
+The model weights are not included in this repository. Please download the weights from the following link and place them in the specified directory:
+- [Download Model Weights](#) *(replace `#` with the actual URL)*
+
+After downloading, place the weights in the `weights/` directory or update the path in the script accordingly.
+
+### 3. Run the Test Script
+To test the model, run the following command:
+```bash
+python test.py
 
 

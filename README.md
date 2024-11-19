@@ -18,6 +18,6 @@ numpy==1.24.3
 
 ## Test on the model
 
-You can test the model using the provided `test.py`. Before running it, ensure that the test data and labels are prepared, and the weight files are downloaded.
+You can test the model using the provided `test.py` . Before running it, ensure that the test data and labels are prepared, and the weight files are downloaded.
 
 

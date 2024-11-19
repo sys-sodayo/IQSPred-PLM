@@ -1,4 +1,4 @@
-# IQSPred-PLM: An Interpretable Quorum Sensing Peptides Prediction Model Based on Protein Language Model
+### IQSPred-PLM: An Interpretable Quorum Sensing Peptides Prediction Model Based on Protein Language Model
 
 Quorum sensing regulates cooperative behaviors in bacteria through the accumulation and detection of signaling molecules. This process plays a crucial role in various biological functions, including biofilm formation, antibiotic production, regulation of virulence factors, and immune modulation.Within this framework, quorum sensing peptides (QSPs) serve as essential signaling molecules that mediate bacterial communication both within and between species, making them critical to understanding quorum sensing and its regulatory functions. Here, we propose IQSPred-PLM, a robust and interpretable deep learning model for accurate QSP prediction.
 
@@ -8,11 +8,16 @@ IQSPred-PLM relies on a large-scale pre-trained protein language models: ESM-2. 
 
 - ESM-2:https://github.com/facebookresearch/esm
 
-# Package requirement
+## Package requirement
 ```
 pytorch==2.1.0  
 scikit-learn==1.3.0
 pandas==2.0.3
 numpy==1.24.3
 ```
+
+## Test on the model
+
+
+
 

@@ -7,7 +7,7 @@ from getdata import test_x,test_y
 def  to_test_model (x,y):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = CNN(64, 1280, 2).to(device)
-    model.load_state_dict(torch.load("../model/MSRes-CNN.pt"))
+    model.load_state_dict(torch.load("../model/model.pt"))
     model.eval()
     y = torch.tensor(y)
 

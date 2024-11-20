@@ -24,7 +24,7 @@ Ensure your test data and corresponding labels are ready and match the required 
 
 ### 2. Download the Model Weights
 
-Our model can be download from : [https://drive.google.com/drive/u/2/folders/1fScjxyr7xMyywUzTAYK5BLOhLmt3V1W2](https://drive.google.com/drive/u/2/folders/1fScjxyr7xMyywUzTAYK5BLOhLmt3V1W2)
+Our model can be download from : [https://drive.google.com/file/d/1xyf-YFVOTzPpAmDM04br-lyi0yxS20dj/view?usp=sharing](https://drive.google.com/file/d/1xyf-YFVOTzPpAmDM04br-lyi0yxS20dj/view?usp=sharing).
 
 ### 3. Run the Test Script
 To test the model, run the following command:
